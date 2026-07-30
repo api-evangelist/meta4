@@ -1,7 +1,25 @@
 aid: meta4
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/meta4.png
 name: Meta4
-description: Meta4 is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Meta4 is a human capital management (HCM) software provider founded in Madrid,
+  Spain, delivering cloud-based payroll, talent, and time-management applications
+  widely used across the Spanish-speaking world and Europe. Backed by Insight
+  Partners, Meta4 was acquired by Cegid in 2019 and its PeopleNet HCM platform is
+  now delivered as part of the Cegid HR product family. The developer surface —
+  Core HR, payroll, and talent APIs — is published through the Cegid HR developer
+  portal rather than a standalone Meta4 developer program.
 url: https://raw.githubusercontent.com/api-evangelist/meta4/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,38 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-acquired-by: cegid
+x-acquired-year: '2019'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-note: meta4.com domain no longer resolves (no DNS); the Meta4 brand and its
+  PeopleNet HCM platform now ship under Cegid HR. No standalone Meta4 API surface
+  exists — Core HR / payroll / talent APIs are published on the Cegid HR developer
+  portal behind sign-in, with no public OpenAPI or well-known discovery documents.
 tags:
 - Company
+- Human Resources
+- HCM
+- Payroll
+- Talent Management
+- Human Capital Management
+- HR Technology
+- SaaS
+- Enterprise Software
 apis: []
+common:
+- type: DeveloperPortal
+  url: https://cegid-hr-developers.talentsoft.net/
+- type: Documentation
+  url: https://developers.cegid.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
