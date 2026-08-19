@@ -29,7 +29,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-acquired-by: cegid
 x-acquired-year: '2019'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 x-note: meta4.com domain no longer resolves (no DNS); the Meta4 brand and its
